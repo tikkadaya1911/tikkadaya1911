@@ -1,0 +1,29 @@
+.card{
+    perspective: 1000px;
+}
+
+.front,
+.back{
+backface-visibility: hidden;
+transition: all 0,4s ease ;
+}
+
+.front,
+    .back{ 
+        overflow: hidden ;
+    }
+
+
+    .perspective {
+        perspective: 1000px; /* Adds 3D perspective to the card */
+      }
+      
+      .rotate-180 {
+        transform: rotateY(180deg); /* Rotates the back side by 180 degrees */
+      }
+      
+      .btn-rotate {
+        transform: rotate(45deg); /* Rotates the button by 45 degrees */
+      }
+      
+            
